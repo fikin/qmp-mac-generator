@@ -63,6 +63,7 @@ mac=$(${GOBIN}/qmp-mac-generator)
 ## Building
 
 ```shell
-go mod tidy
-go build main.go
+go get .
+go build -v ./...
+go test
 ```
