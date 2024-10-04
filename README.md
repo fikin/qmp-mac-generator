@@ -50,6 +50,16 @@ docker ... \
   ...
 ```
 
+If you leave the file container specific, mac addresses will be unique inside that container only.
+
+## Usage 
+
+```shell
+go install github.com/fikin/qmp-mac-generator
+...
+mac=$(${GOBIN}/qmp-mac-generator)
+```
+
 ## Building
 
 ```shell
